@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #242424;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #c2e5d7c2;
+}
+
+#wrapper {
+    width: auto;
+    max-width: 1440px;
+    border-radius: 30px;
+}
+
+header {
+    width: 100%;
+    max-height: 350px;
+}
+
+.dolar {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-color: #c2e5d7c2;
+    border-radius: 25px;
+}
+
+.dolar img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 25px;
+}
+
+.dolar #logo img {
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    margin: 3% 10%;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        background-color: #c2e5d7c2;
+    }
+
+    #wrapper {
+        max-width: 600px;
+        margin: 0;
+    }
+
+    header {
+        width: 100%;
+        max-height: 350px;
+    }
+
+    .dolar {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: #c2e5d7c2;
+    }
+
+    .dolar img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .dolar #logo img {
+        width: 85%;
+        height: 85%;
+        position: absolute;
+        margin: 3% 10%;
+        z-index: 1;
+    }
+
+    .modulo_topicos {
+        width: 100%;
+        background-color: #c1ffeee8;
+        height: auto;
+        padding: 10px 0 30px 0;
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+        max-width: 420px;
+        margin: 15px auto;
+        padding: 15px 20px;
+        height: auto;
+    }
+
+    .container h3 {
+        color: #008037;
+        font-size: clamp(1.5rem, 3vw, 3.8rem);
+        word-wrap: break-word;
+        text-align: center;
+        margin-bottom: 20px;
+        font: bolder;
+    }
+
+    .container .quadarado {
+        display: flex;
+        flex-wrap: wrap;
+        border: solid 2px transparent;
+        gap: 25px 0;
+    }
+
+    .container .quadarado .number_quadrado {
+        border: solid 2px black;
+        padding: 10px;
+        background-color: #FFF7EC;
+        border-radius: 20px;
+        max-height: 150px;
+        box-shadow: 5px 4px 5px #008036;
+    }
+
+    .modulo_topicos .container .quadarado .number_quadrado p {
+        font-size: 18px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    #fundo {
+        background: transparent url(/img/DoLAR_NA_CONTA_Apresentacao_.png) no-repeat;
+        color: #c2e5d7c2;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #comprar {
+        display: flex;
+        max-width: 425px;
+        height: auto;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin: 0px auto;
+        border: solid 2px black;
+        border-radius: 30px;
+        background-color: #F6EBDD;
+    }
+
+    #comprar .autor {
+        width: 60%;
+        height: 55%;
+        margin-bottom: 10px;
+    }
+
+    #comprar .autor img {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border-radius: 15px;
+    }
+
+    #comprar ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 25px;
+        position: relative;
+    }
+
+    #comprar ul h4 {
+        color: black;
+        font-size: clamp(1.5rem, 3vw, 3.8rem);
+        word-wrap: break-word;
+        margin-bottom: 20px;
+        font: bolder;
+        text-align: center;
+    }
+
+    #comprar ul li {
+        font-size: 18px;
+        text-align: start;
+    }
+
+    .modulo_topicos .botao {
+        margin: auto;
+        align-items: center;
+    }
+
+    .botao {
+        background-color: #1e966eb2;
+        color: #F6EBDD;
+        padding: 15px;
+        font-size: large;
+        font: bolder;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 5px 4px 5px #008036;
+        padding: 16px;
+        margin: 5px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+    }
+
+    .botao:active {
+        justify-content: center;
+        text-align: center;
+        background-color: #5eb498b2;
+        color: #f6ebdd;
+        box-shadow: 7px 6px 6px #008036;
+    }
+
+    .promo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0;
+        margin: 0 auto;
+    }
+
+    .promo h1 {
+        font-size: 3vh;
+        margin: 7px 0px;
+        padding: 10px;
+    }
+
+    .promo h1 mark {
+        padding: 5px 3px;
+        border-radius: 15px;
+    }
+
+    .promo .botao {
+        margin: 20px auto;
+        align-items: center;
+    }
+
+    footer {
+        background-color: #242424;
+        text-align: center;
+        padding: 25px;
+        margin: 0 auto;
+    }
+
+    footer p {
+        color: aliceblue;
+        font-size: medium;
+    }
+
+}
