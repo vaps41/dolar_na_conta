@@ -58,6 +58,9 @@ header {
 }
 
 #video iframe {
+    border-radius: 35px;
+    border: solid green;
+    box-shadow: 5px 10px 10px;
     height: 399px;
     width: 710px;
 }
