@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    color: #242424;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
@@ -16,10 +15,11 @@ body {
     background-color: #c2e5d7c2;
     align-items: center;
 }
+
 #wrapper {
     max-width: 1440px;
     border-radius: 30px;
-    background-color:#ffffffab;
+    background-color: #ffffffab;
 }
 
 header {
@@ -50,15 +50,18 @@ header {
     margin: 3% 10%;
     z-index: 1;
 }
-#video{
+
+#video {
     display: flex;
     justify-content: center;
     margin: 35px auto;
 }
-#video iframe{
-    height:399px;
-    width:710px;
+
+#video iframe {
+    height: 399px;
+    width: 710px;
 }
+
 .modulo_topicos {
     width: 100%;
     background-color: #c1ffeee8;
@@ -148,6 +151,7 @@ header {
     padding: 25px;
     position: relative;
     margin: 0;
+    color: #242424;
 }
 
 #comprar .titulo_topi h4 {
@@ -207,13 +211,14 @@ header {
     color: #f6ebdd;
     box-shadow: 7px 6px 6px #008036;
 }
+
 .promo {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 40px 0;
     margin: 0 auto;
-    background-color:#ffffffdb;
+    background-color: #ffffffdb;
 }
 
 .promo h1 {
@@ -233,20 +238,32 @@ header {
 }
 
 footer {
-    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    background: #242424;
     text-align: center;
+    text-justify: auto;
+    justify-content: center;
+    justify-items: center;
     padding: 25px;
     margin: 0 auto;
     width: 100%;
+    max-height: 380px;
 }
-footer.logo7{
-    width: 100%;
+
+footer #logo7 {
+    display:flex;
+    width: 35%;
+    height: auto;
+    margin: 25px auto;
 }
-.logo7 img{
+
+#logo7 img {
     width: 100%;
     height: 100%;
     border-radius: 25px;
 }
+
 footer p {
     color: aliceblue;
     font-size: medium;
@@ -293,15 +310,18 @@ footer p {
         margin: 3% 10%;
         z-index: 1;
     }
-    #video{
+
+    #video {
         display: flex;
         justify-content: center;
         margin: 35px auto;
     }
-    #video iframe{
-        height:180px;
-        max-width:320px;
+
+    #video iframe {
+        height: 180px;
+        max-width: 320px;
     }
+
     .modulo_topicos {
         width: 100%;
         background-color: #c1ffeee8;
@@ -503,15 +523,36 @@ footer p {
     }
 
     footer {
-        background-color: #242424;
+        display: flex;
+        flex-direction: column;
+        background: #242424;
         text-align: center;
+        text-justify: auto;
+        justify-content: center;
+        justify-items: center;
         padding: 25px;
         margin: 0 auto;
+        width: 100%;
+        max-height: 380px;
     }
-
+    
+    footer #logo7 {
+        display:flex;
+        width: 60%;
+        height: auto;
+        margin: 25px auto;
+    }
+    
+    #logo7 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+    }
+    
     footer p {
         color: aliceblue;
         font-size: medium;
     }
+    
 
 }
