@@ -3,33 +3,33 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: #242424;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
 
 body {
     display: flex;
-    flex-direction: column;
     width: 100%;
+    margin: 0 auto;
     justify-content: center;
     background-color: #c2e5d7c2;
-    align-items: center;
 }
 
 #wrapper {
+    width: auto;
     max-width: 1440px;
     border-radius: 30px;
-    background-color: #ffffffab;
 }
 
 header {
     width: 100%;
-    max-height: 450px;
+    max-height: 350px;
 }
 
 .dolar {
     width: 100%;
-    height: 450px;
+    height: 350px;
     position: relative;
     background-color: #c2e5d7c2;
     border-radius: 25px;
@@ -51,267 +51,18 @@ header {
     z-index: 1;
 }
 
-#video {
-    display: flex;
-    justify-content: center;
-    margin: 35px auto;
-}
-
-#video iframe {
-    border-radius: 35px;
-    border: solid green;
-    /* box-shadow: 5px 10px 10px; */
-    height: 399px;
-    width: 710px;
-}
-
-.modulo_topicos {
-    width: 100%;
-    background-color: #c1ffeee8;
-    height: auto;
-    padding: 10px 0 30px 0;
-    border-radius: 25px;
-}
-
-.container {
-    display: block;
-    width: 100%;
-    max-width: 900px;
-    margin: 15px auto;
-    padding: 15px 20px;
-    height: auto;
-}
-
-.container h3 {
-    display: flex;
-    flex-direction: row;
-    color: #008037;
-    font-size: clamp(1.5rem, 3vw, 3.8rem);
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.container .quadarado {
-    display: flex;
-    flex-direction: row;
-    border: solid 2px transparent;
-    gap: 25px;
-}
-
-.container .quadarado .number_quadrado {
-    border: solid 2px black;
-    padding: 10px;
-    background-color: #FFF7EC;
-    border-radius: 20px;
-    max-height: 500px;
-    box-shadow: 5px 4px 5px #008036;
-    margin: auto 0;
-}
-
-.modulo_topicos .container .quadarado .number_quadrado p {
-    font-size: 19px;
-    text-align: center;
-    padding: 5px;
-}
-
-#fundo {
-    background: #c2e5d7c2 url(/img/doolar.png) no-repeat;
-    color: #c2e5d7c2;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 25px;
-}
-
-#comprar {
-    display: flex;
-    max-width: 800px;
-    height: auto;
-    justify-content: center;
-    margin: 50px auto;
-    border: solid 2px black;
-    border-radius: 30px;
-    background-color: #F6EBDD;
-    flex-direction: row;
-}
-
-#comprar .autor {
-    width: 100%;
-    height: 100%;
-    margin: auto 30px;
-}
-
-#comprar .autor img {
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    border-radius: 15px;
-}
-
-#comprar .laterais_topi ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 25px;
-    position: relative;
-    margin: 0;
-    color: #242424;
-}
-
-#comprar .titulo_topi h4 {
-    flex-direction: row;
-    color: black;
-    font-size: clamp(1.5rem, 3vw, 3.8rem);
-    text-align: center;
-    width: 100%;
-    margin: 60px 10px 30px 10px;
-}
-
-.laterais_topi {
-    display: flex;
-    flex-direction: row;
-}
-
-#comprar ul li {
-    font-size: 18px;
-    text-align: start;
-    text-justify: auto;
-    word-wrap: break-word;
-    margin: 0 30px 2px 30px;
-}
-
-.modulo_topicos .botao {
-    margin: auto;
-    align-items: center;
-}
-
-#comprar #botao_arrumar {
-    display: flex;
-    justify-content: center;
-    margin: 50px 0;
-}
-
-.botao {
-    background-color: #1e966eb2;
-    color: #F6EBDD;
-    padding: 15px;
-    font-size: large;
-    font: bolder;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 5px 4px 5px #008036;
-    padding: 16px;
-    margin: 5px 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: auto;
-}
-
-.botao:hover {
-    justify-content: center;
-    text-align: center;
-    background-color: #5eb498b2;
-    color: #f6ebdd;
-    box-shadow: 7px 6px 6px #008036;
-}
-
-a {
-    padding: 5px;
-    text-decoration: none;
-}
-
-.promo {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 40px 0;
-    margin: 0 auto;
-    background-color: #ffffffdb;
-}
-
-.promo h1 {
-    font-size: clamp(1.5rem, 3vw, 3.8rem);
-    margin: 7px 0px;
-    padding: 10px;
-}
-
-.promo h1 mark {
-    padding: 5px 3px;
-    border-radius: 15px;
-    background-color: yellow;
-}
-
-.promo .botao {
-    margin: 20px auto;
-    align-items: center;
-}
-
-#depoimento {
-    border-radius: 40px;
-    max-width: 400px;
-    height: 550px;
-    margin: 10px auto;
-}
-
-#titulo_depoimento {
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    background-color: #c1ffeee8;
-    height: auto;
-    padding: 10px 0 30px 0;
-    border-radius: 25px;
-}
-
-#titulo_depoimento h4 {
-    color: #008036;
-    font-size: clamp(1.5rem, 3vw, 3.8rem);
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    background: #242424;
-    text-align: center;
-    text-justify: auto;
-    justify-content: center;
-    justify-items: center;
-    padding: 25px;
-    margin: 0 auto;
-    width: 100%;
-    max-height: 500px;
-}
-
-footer #logo7 {
-    display: flex;
-    width: 35%;
-    height: auto;
-    margin: 25px auto;
-}
-
-#logo7 img {
-    width: 100%;
-    height: 100%;
-    border-radius: 25px;
-}
-
-footer p {
-    color: aliceblue;
-    font-size: medium;
-}
-
 @media only screen and (max-width: 600px) {
 
     body {
         display: flex;
         width: 100%;
-        margin: 0 0 0 0;
+        margin: 0;
         justify-content: center;
         background-color: #c2e5d7c2;
     }
 
     #wrapper {
-        max-width: 550px;
+        max-width: 600px;
         margin: 0;
     }
 
@@ -342,17 +93,6 @@ footer p {
         z-index: 1;
     }
 
-    #video {
-        display: flex;
-        justify-content: center;
-        margin: 35px auto;
-    }
-
-    #video iframe {
-        height: 180px;
-        max-width: 320px;
-    }
-
     .modulo_topicos {
         width: 100%;
         background-color: #c1ffeee8;
@@ -381,7 +121,6 @@ footer p {
     .container .quadarado {
         display: flex;
         flex-wrap: wrap;
-        height: auto;
         border: solid 2px transparent;
         gap: 25px 0;
     }
@@ -391,18 +130,18 @@ footer p {
         padding: 10px;
         background-color: #FFF7EC;
         border-radius: 20px;
-        max-height: 250px;
+        max-height: 150px;
         box-shadow: 5px 4px 5px #008036;
     }
 
     .modulo_topicos .container .quadarado .number_quadrado p {
         font-size: 18px;
         text-align: center;
-        padding: 1px;
+        padding: 5px;
     }
 
     #fundo {
-        background: transparent url(/img/doolar.png) no-repeat;
+        background: transparent url(/img/DoLAR_NA_CONTA_Apresentacao_.png) no-repeat;
         color: #c2e5d7c2;
         height: auto;
         margin: 0 auto;
@@ -433,13 +172,12 @@ footer p {
         border-radius: 15px;
     }
 
-    #comprar .laterais_topi ul {
+    #comprar ul {
         display: flex;
         flex-direction: column;
         gap: 10px;
         padding: 25px;
         position: relative;
-        margin: 0 15px;
     }
 
     #comprar ul h4 {
@@ -459,50 +197,6 @@ footer p {
     .modulo_topicos .botao {
         margin: auto;
         align-items: center;
-    }
-
-    #comprar .laterais_topi ul {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding: 25px;
-        position: relative;
-        margin: 0;
-    }
-
-    #comprar .titulo_topi h4 {
-        flex-direction: row;
-        color: black;
-        font-size: clamp(1.5rem, 3vw, 3.8rem);
-        text-align: center;
-        width: 100%;
-        margin: 60px 10px 30px 10px;
-    }
-
-    .laterais_topi {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    #comprar ul li {
-        font-size: 18px;
-        text-align: start;
-        text-justify: auto;
-        text-justify: auto;
-        margin: 0 30px 2px 30px;
-    }
-
-    .modulo_topicos .botao {
-        margin: auto;
-        align-items: center;
-    }
-
-    #comprar #botao_arrumar {
-        display: flex;
-        justify-content: center;
-        margin: 50px 0;
     }
 
     .botao {
@@ -553,54 +247,17 @@ footer p {
         margin: 20px auto;
         align-items: center;
     }
-    #depoimento {
-        border-radius: 40px;
-        max-width:300px;
-        height: 400px;
-        margin: 10px auto;
-    }
-    
-    #titulo_depoimento {
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        background-color: #c1ffeee8;
-        height: auto;
-        padding: 10px 0 30px 0;
-        border-radius: 25px;
-    }
 
     footer {
-        display: flex;
-        flex-direction: column;
-        background: #242424;
+        background-color: #242424;
         text-align: center;
-        text-justify: auto;
-        justify-content: center;
-        justify-items: center;
         padding: 25px;
         margin: 0 auto;
-        width: 100%;
-        max-height: 380px;
-    }
-
-    footer #logo7 {
-        display: flex;
-        width: 60%;
-        height: auto;
-        margin: 25px auto;
-    }
-
-    #logo7 img {
-        width: 100%;
-        height: 100%;
-        border-radius: 25px;
     }
 
     footer p {
         color: aliceblue;
         font-size: medium;
     }
-
 
 }
