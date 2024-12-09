@@ -1,4 +1,4 @@
-# landing page Dolar na conta
+# Dolar na conta
 
 # 🚀 Tecnologias
 
