@@ -6,8 +6,6 @@
 
 * ✔️ Css
 
-* ✔️ Javascript
-
 # 💻 Projeto
 * O foco do projeto é elaboração de landing page para mobile
 * Este projeto está finalizado.
